@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoLink/> shoould match snapshot 1`] = `
+<img
+  alt="Olá Mundo"
+  src="image.jpg"
+/>
+`;
