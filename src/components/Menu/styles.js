@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import { Container as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
+import { Container as SectionContainer } from '../SectionContainer/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
@@ -59,7 +59,14 @@ export const MenuContainer = styled.div`
   `}
 `;
 
-// export const Button = styled.div`
-//   ${({ theme }) => css`
-//   `}
-// `;
+export const Button = styled.div`
+  ${({ theme }) => css`
+    z-index: 6;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background: ${theme};
+  `}
+`;
