@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SectionBackground/> shoould render SectionBackground with dark background 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
 .c0 {
   background: #FFFFFF;
   color: #0A1128;
@@ -9,12 +15,6 @@ exports[`<SectionBackground/> shoould render SectionBackground with dark backgro
   min-height: 100vh;
   display: flex;
   align-items: center;
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
 }
 
 <div>

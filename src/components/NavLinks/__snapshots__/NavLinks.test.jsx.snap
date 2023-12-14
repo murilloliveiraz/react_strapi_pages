@@ -1,11 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NavLinks /> should match snapshot 1`] = `
-.c0 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .c1 {
   display: block;
   text-decoration: none;
@@ -31,7 +26,12 @@ exports[`<NavLinks /> should match snapshot 1`] = `
   width: 50%;
 }
 
-@media (max-width: 768px) {
+.c0 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media (max-width:768px) {
   .c0 {
     flex-flow: column wrap;
     align-content: center;
@@ -39,6 +39,7 @@ exports[`<NavLinks /> should match snapshot 1`] = `
 }
 
 <nav
+  aria-label="Main menu"
   class="c0"
 >
   <a

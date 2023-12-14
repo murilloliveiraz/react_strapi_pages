@@ -1,6 +1,6 @@
 import P from 'prop-types';
-import * as Styled from './styles';
 import { Heading } from '../Heading';
+import * as Styled from './styles';
 
 export const LogoLink = ({ text, srcImg = '', link }) => {
   return (
